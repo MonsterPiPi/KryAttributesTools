@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B24456A61FBEC84E00630E9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B24456A51FBEC84E00630E9F /* AppDelegate.m */; };
+		B24456A91FBEC84F00630E9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B24456A81FBEC84F00630E9F /* ViewController.m */; };
+		B24456AC1FBEC84F00630E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24456AA1FBEC84F00630E9F /* Main.storyboard */; };
+		B24456AE1FBEC84F00630E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24456AD1FBEC84F00630E9F /* Assets.xcassets */; };
+		B24456B11FBEC84F00630E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24456AF1FBEC84F00630E9F /* LaunchScreen.storyboard */; };
+		B24456B41FBEC84F00630E9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B24456B31FBEC84F00630E9F /* main.m */; };
+		B24456BE1FBEC84F00630E9F /* KryAttributesToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B24456BD1FBEC84F00630E9F /* KryAttributesToolsTests.m */; };
+		B24456C91FBEC84F00630E9F /* KryAttributesToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B24456C81FBEC84F00630E9F /* KryAttributesToolsUITests.m */; };
+		B24456D81FBEC88100630E9F /* KryAttributesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B24456D71FBEC88100630E9F /* KryAttributesManager.m */; };
+		B24456DB1FBECB1300630E9F /* KryAttributeWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = B24456DA1FBECB1300630E9F /* KryAttributeWorker.m */; };
+		B2A51FC71FDA825900C9D30B /* 2321.png in Resources */ = {isa = PBXBuildFile; fileRef = B2A51FC61FDA825800C9D30B /* 2321.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B24456BA1FBEC84F00630E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B24456991FBEC84E00630E9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B24456A01FBEC84E00630E9F;
+			remoteInfo = KryAttributesTools;
+		};
+		B24456C51FBEC84F00630E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B24456991FBEC84E00630E9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B24456A01FBEC84E00630E9F;
+			remoteInfo = KryAttributesTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B24456A11FBEC84E00630E9F /* KryAttributesTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KryAttributesTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24456A41FBEC84E00630E9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B24456A51FBEC84E00630E9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B24456A71FBEC84E00630E9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B24456A81FBEC84F00630E9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B24456AB1FBEC84F00630E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B24456AD1FBEC84F00630E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B24456B01FBEC84F00630E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B24456B21FBEC84F00630E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24456B31FBEC84F00630E9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B24456B91FBEC84F00630E9F /* KryAttributesToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KryAttributesToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24456BD1FBEC84F00630E9F /* KryAttributesToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KryAttributesToolsTests.m; sourceTree = "<group>"; };
+		B24456BF1FBEC84F00630E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24456C41FBEC84F00630E9F /* KryAttributesToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KryAttributesToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24456C81FBEC84F00630E9F /* KryAttributesToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KryAttributesToolsUITests.m; sourceTree = "<group>"; };
+		B24456CA1FBEC84F00630E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24456D61FBEC88100630E9F /* KryAttributesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KryAttributesManager.h; sourceTree = "<group>"; };
+		B24456D71FBEC88100630E9F /* KryAttributesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KryAttributesManager.m; sourceTree = "<group>"; };
+		B24456D91FBECB1300630E9F /* KryAttributeWorker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KryAttributeWorker.h; sourceTree = "<group>"; };
+		B24456DA1FBECB1300630E9F /* KryAttributeWorker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KryAttributeWorker.m; sourceTree = "<group>"; };
+		B2A51FC61FDA825800C9D30B /* 2321.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2321.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B244569E1FBEC84E00630E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24456B61FBEC84F00630E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24456C11FBEC84F00630E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B24456981FBEC84E00630E9F = {
+			isa = PBXGroup;
+			children = (
+				B24456A31FBEC84E00630E9F /* KryAttributesTools */,
+				B24456BC1FBEC84F00630E9F /* KryAttributesToolsTests */,
+				B24456C71FBEC84F00630E9F /* KryAttributesToolsUITests */,
+				B24456A21FBEC84E00630E9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B24456A21FBEC84E00630E9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B24456A11FBEC84E00630E9F /* KryAttributesTools.app */,
+				B24456B91FBEC84F00630E9F /* KryAttributesToolsTests.xctest */,
+				B24456C41FBEC84F00630E9F /* KryAttributesToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B24456A31FBEC84E00630E9F /* KryAttributesTools */ = {
+			isa = PBXGroup;
+			children = (
+				B24456A41FBEC84E00630E9F /* AppDelegate.h */,
+				B24456A51FBEC84E00630E9F /* AppDelegate.m */,
+				B24456A71FBEC84E00630E9F /* ViewController.h */,
+				B24456A81FBEC84F00630E9F /* ViewController.m */,
+				B24456AA1FBEC84F00630E9F /* Main.storyboard */,
+				B24456AD1FBEC84F00630E9F /* Assets.xcassets */,
+				B24456AF1FBEC84F00630E9F /* LaunchScreen.storyboard */,
+				B24456B21FBEC84F00630E9F /* Info.plist */,
+				B24456B31FBEC84F00630E9F /* main.m */,
+				B2A51FC61FDA825800C9D30B /* 2321.png */,
+				B24456D61FBEC88100630E9F /* KryAttributesManager.h */,
+				B24456D71FBEC88100630E9F /* KryAttributesManager.m */,
+				B24456D91FBECB1300630E9F /* KryAttributeWorker.h */,
+				B24456DA1FBECB1300630E9F /* KryAttributeWorker.m */,
+			);
+			path = KryAttributesTools;
+			sourceTree = "<group>";
+		};
+		B24456BC1FBEC84F00630E9F /* KryAttributesToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B24456BD1FBEC84F00630E9F /* KryAttributesToolsTests.m */,
+				B24456BF1FBEC84F00630E9F /* Info.plist */,
+			);
+			path = KryAttributesToolsTests;
+			sourceTree = "<group>";
+		};
+		B24456C71FBEC84F00630E9F /* KryAttributesToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B24456C81FBEC84F00630E9F /* KryAttributesToolsUITests.m */,
+				B24456CA1FBEC84F00630E9F /* Info.plist */,
+			);
+			path = KryAttributesToolsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B24456A01FBEC84E00630E9F /* KryAttributesTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24456CD1FBEC84F00630E9F /* Build configuration list for PBXNativeTarget "KryAttributesTools" */;
+			buildPhases = (
+				B244569D1FBEC84E00630E9F /* Sources */,
+				B244569E1FBEC84E00630E9F /* Frameworks */,
+				B244569F1FBEC84E00630E9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KryAttributesTools;
+			productName = KryAttributesTools;
+			productReference = B24456A11FBEC84E00630E9F /* KryAttributesTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B24456B81FBEC84F00630E9F /* KryAttributesToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24456D01FBEC84F00630E9F /* Build configuration list for PBXNativeTarget "KryAttributesToolsTests" */;
+			buildPhases = (
+				B24456B51FBEC84F00630E9F /* Sources */,
+				B24456B61FBEC84F00630E9F /* Frameworks */,
+				B24456B71FBEC84F00630E9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B24456BB1FBEC84F00630E9F /* PBXTargetDependency */,
+			);
+			name = KryAttributesToolsTests;
+			productName = KryAttributesToolsTests;
+			productReference = B24456B91FBEC84F00630E9F /* KryAttributesToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B24456C31FBEC84F00630E9F /* KryAttributesToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24456D31FBEC84F00630E9F /* Build configuration list for PBXNativeTarget "KryAttributesToolsUITests" */;
+			buildPhases = (
+				B24456C01FBEC84F00630E9F /* Sources */,
+				B24456C11FBEC84F00630E9F /* Frameworks */,
+				B24456C21FBEC84F00630E9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B24456C61FBEC84F00630E9F /* PBXTargetDependency */,
+			);
+			name = KryAttributesToolsUITests;
+			productName = KryAttributesToolsUITests;
+			productReference = B24456C41FBEC84F00630E9F /* KryAttributesToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B24456991FBEC84E00630E9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = liaojingyu;
+				TargetAttributes = {
+					B24456A01FBEC84E00630E9F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					B24456B81FBEC84F00630E9F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B24456A01FBEC84E00630E9F;
+					};
+					B24456C31FBEC84F00630E9F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B24456A01FBEC84E00630E9F;
+					};
+				};
+			};
+			buildConfigurationList = B244569C1FBEC84E00630E9F /* Build configuration list for PBXProject "KryAttributesTools" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B24456981FBEC84E00630E9F;
+			productRefGroup = B24456A21FBEC84E00630E9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B24456A01FBEC84E00630E9F /* KryAttributesTools */,
+				B24456B81FBEC84F00630E9F /* KryAttributesToolsTests */,
+				B24456C31FBEC84F00630E9F /* KryAttributesToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B244569F1FBEC84E00630E9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24456B11FBEC84F00630E9F /* LaunchScreen.storyboard in Resources */,
+				B24456AE1FBEC84F00630E9F /* Assets.xcassets in Resources */,
+				B24456AC1FBEC84F00630E9F /* Main.storyboard in Resources */,
+				B2A51FC71FDA825900C9D30B /* 2321.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24456B71FBEC84F00630E9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24456C21FBEC84F00630E9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B244569D1FBEC84E00630E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24456A91FBEC84F00630E9F /* ViewController.m in Sources */,
+				B24456D81FBEC88100630E9F /* KryAttributesManager.m in Sources */,
+				B24456B41FBEC84F00630E9F /* main.m in Sources */,
+				B24456A61FBEC84E00630E9F /* AppDelegate.m in Sources */,
+				B24456DB1FBECB1300630E9F /* KryAttributeWorker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24456B51FBEC84F00630E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24456BE1FBEC84F00630E9F /* KryAttributesToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24456C01FBEC84F00630E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24456C91FBEC84F00630E9F /* KryAttributesToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B24456BB1FBEC84F00630E9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B24456A01FBEC84E00630E9F /* KryAttributesTools */;
+			targetProxy = B24456BA1FBEC84F00630E9F /* PBXContainerItemProxy */;
+		};
+		B24456C61FBEC84F00630E9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B24456A01FBEC84E00630E9F /* KryAttributesTools */;
+			targetProxy = B24456C51FBEC84F00630E9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B24456AA1FBEC84F00630E9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B24456AB1FBEC84F00630E9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B24456AF1FBEC84F00630E9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B24456B01FBEC84F00630E9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B24456CB1FBEC84F00630E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B24456CC1FBEC84F00630E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B24456CE1FBEC84F00630E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JVFK7B32L;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = KryAttributesTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystal.KryAttributesTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B24456CF1FBEC84F00630E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JVFK7B32L;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = KryAttributesTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystal.KryAttributesTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B24456D11FBEC84F00630E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KryAttributesToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystal.KryAttributesToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KryAttributesTools.app/KryAttributesTools";
+			};
+			name = Debug;
+		};
+		B24456D21FBEC84F00630E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KryAttributesToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystal.KryAttributesToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KryAttributesTools.app/KryAttributesTools";
+			};
+			name = Release;
+		};
+		B24456D41FBEC84F00630E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KryAttributesToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystal.KryAttributesToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KryAttributesTools;
+			};
+			name = Debug;
+		};
+		B24456D51FBEC84F00630E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KryAttributesToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.krystal.KryAttributesToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KryAttributesTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B244569C1FBEC84E00630E9F /* Build configuration list for PBXProject "KryAttributesTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24456CB1FBEC84F00630E9F /* Debug */,
+				B24456CC1FBEC84F00630E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24456CD1FBEC84F00630E9F /* Build configuration list for PBXNativeTarget "KryAttributesTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24456CE1FBEC84F00630E9F /* Debug */,
+				B24456CF1FBEC84F00630E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24456D01FBEC84F00630E9F /* Build configuration list for PBXNativeTarget "KryAttributesToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24456D11FBEC84F00630E9F /* Debug */,
+				B24456D21FBEC84F00630E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24456D31FBEC84F00630E9F /* Build configuration list for PBXNativeTarget "KryAttributesToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24456D41FBEC84F00630E9F /* Debug */,
+				B24456D51FBEC84F00630E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B24456991FBEC84E00630E9F /* Project object */;
+}
