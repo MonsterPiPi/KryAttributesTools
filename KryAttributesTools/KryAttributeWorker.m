@@ -385,11 +385,10 @@
 // NSShadowAttributeName 阴影
 -(KryAttributeWorker * _Nullable (^)(float, UIColor * _Nonnull, CGSize))shadow{
     return ^ KryAttributeWorker *(float shadowBlurRadius,UIColor * _Nonnull shadowColor, CGSize shadowOffset){
-          NSShadow *exshadow = ((NSShadow *(*)(id, SEL))(void *)objc_msgSend)((id)objc_getClass("NSShadow"), sel_registerName("alloc"));
-                   exshadow  = ((NSShadow *(*)(id, SEL))(void *)objc_msgSend)((id)_attstr, sel_registerName("init"));
-                   exshadow.shadowBlurRadius = shadowBlurRadius;
-                   exshadow.shadowColor = shadowColor;
-                   exshadow.shadowOffset = shadowOffset;
+        NSShadow * exshadow = [[NSShadow alloc]init];
+        exshadow.shadowBlurRadius = shadowBlurRadius;
+        exshadow.shadowColor = shadowColor;
+        exshadow.shadowOffset = shadowOffset;
         [_attstr addAttribute:NSShadowAttributeName value:exshadow range:_rangeAll(_attstr)];
         return self;
     };

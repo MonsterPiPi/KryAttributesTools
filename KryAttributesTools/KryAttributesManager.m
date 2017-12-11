@@ -37,15 +37,6 @@
     return  [worker endWork];
 }
 
--(NSAttributedString *)createHyperlinkwithAttStr:(NSString *)str withurl:(NSString *)url task:(void (^)(KryAttributeWorker * worker))task{
-    NSAssert(str, @"param must not be empty!");
-    KryAttributeWorker * worker = [KryAttributeWorker new];
-    worker.editText(str);
-    task(worker);
-    return  [worker endWork];
-//    NSAttributedString *attStr  = [[NSAttributedString alloc] initWithString:@"百度链接" attributes:@{NSLinkAttributeName: [NSURL URLWithString:@"http://www.baidu.com"]}];
-}
-
 -(NSAttributedString *)createHyperlinkwithAttStr:(NSString *)str withUrl:(NSString *)url withRange:(NSRange )range{
     NSAssert(str, @"param must not be empty!");
     NSAssert(url, @"param must not be empty!");

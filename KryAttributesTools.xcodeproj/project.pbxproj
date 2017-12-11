@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B22258A11FDEBDDD001E6698 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22258A01FDEBDDD001E6698 /* ShowViewController.m */; };
 		B24456A61FBEC84E00630E9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B24456A51FBEC84E00630E9F /* AppDelegate.m */; };
 		B24456A91FBEC84F00630E9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B24456A81FBEC84F00630E9F /* ViewController.m */; };
 		B24456AC1FBEC84F00630E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24456AA1FBEC84F00630E9F /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B222589F1FDEBDDD001E6698 /* ShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		B22258A01FDEBDDD001E6698 /* ShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
 		B24456A11FBEC84E00630E9F /* KryAttributesTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KryAttributesTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24456A41FBEC84E00630E9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B24456A51FBEC84E00630E9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				B24456A51FBEC84E00630E9F /* AppDelegate.m */,
 				B24456A71FBEC84E00630E9F /* ViewController.h */,
 				B24456A81FBEC84F00630E9F /* ViewController.m */,
+				B222589F1FDEBDDD001E6698 /* ShowViewController.h */,
+				B22258A01FDEBDDD001E6698 /* ShowViewController.m */,
 				B24456AA1FBEC84F00630E9F /* Main.storyboard */,
 				B24456AD1FBEC84F00630E9F /* Assets.xcassets */,
 				B24456AF1FBEC84F00630E9F /* LaunchScreen.storyboard */,
@@ -284,6 +289,7 @@
 				B24456B41FBEC84F00630E9F /* main.m in Sources */,
 				B24456A61FBEC84E00630E9F /* AppDelegate.m in Sources */,
 				B24456DB1FBECB1300630E9F /* KryAttributeWorker.m in Sources */,
+				B22258A11FDEBDDD001E6698 /* ShowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

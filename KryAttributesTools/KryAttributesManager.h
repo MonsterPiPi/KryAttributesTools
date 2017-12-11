@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class KryAttributeWorker;
-//NS_ASSUME_NONNULL_BEGIN
+
 
 @interface KryAttributesManager : NSObject
 

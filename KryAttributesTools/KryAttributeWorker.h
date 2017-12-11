@@ -145,6 +145,7 @@
 /**********************************************调用方法**************************************************/
 @property (nonatomic,copy) KryAttributeWorker * _Nonnull (^ _Nonnull editText)(NSString * _Nonnull );
 
+// 插入文本 插入富文本 插入图片
 @property (nonatomic, copy, readonly) KryAttributeWorker *_Nonnull(^ _Nonnull insert)(id _Nonnull strOrAttrStrOrImg, ...);
 
 //插入图片 位置 尺寸 图片
