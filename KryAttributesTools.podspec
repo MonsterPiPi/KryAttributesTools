@@ -6,8 +6,8 @@ s.homepage     = 'https://github.com/youaremyall/KryAttributesTools'
 s.license      = 'MIT'
 s.authors      = {'Krystal' => '491964334@qq.com'}
 s.platform     = :ios, '6.0'
-s.source       = {:git => "https://github.com/youaremyall/KryAttributesTools.git", :tag => s.version}
-s.source_files = 'KryTools/**/*'
+s.source       = {:git => "https://github.com/youaremyall/KryAttributesTools.git", :tag => "v#{s.version}"}
+s.source_files = "KryTools/**/*.{h,m}"
 s.requires_arc = true
 end
 
