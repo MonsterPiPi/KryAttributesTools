@@ -5,21 +5,6 @@
 //  Created by 廖靖宇 on 2017/11/17.
 //  Copyright © 2017年 liaojingyu. All rights reserved.
 //
-//NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
-//paragraphStyle.lineSpacing = 10;// 字体的行间距
-//paragraphStyle.firstLineHeadIndent = 20.0f;//首行缩进
-//paragraphStyle.alignment = NSTextAlignmentJustified;//（两端对齐的）文本对齐方式：（左，中，右，两端对齐，自然）
-//paragraphStyle.lineBreakMode = NSLineBreakByTruncatingTail;//结尾部分的内容以……方式省略 ( "...wxyz" ,"abcd..." ,"ab...yz")
-
-//paragraphStyle.headIndent = 20;//整体缩进(首行除外)
-//paragraphStyle.tailIndent = 20;//
-//paragraphStyle.minimumLineHeight = 10;//最低行高
-//paragraphStyle.maximumLineHeight = 20;//最大行高
-//paragraphStyle.paragraphSpacing = 15;//段与段之间的间距
-//paragraphStyle.paragraphSpacingBefore = 22.0f;//段首行空白空间/* Distance between the bottom of the previous paragraph (or the end of its paragraphSpacing, if any) and the top of this paragraph. */
-//paragraphStyle.baseWritingDirection = NSWritingDirectionLeftToRight;//从左到右的书写方向（一共三种）
-//paragraphStyle.lineHeightMultiple = 15;/* Natural line height is multiplied by this factor (if positive) before being constrained by minimum and maximum line height. */
-//paragraphStyle.hyphenationFactor = 1;//连字属性 在iOS，唯一支持的值分别为0和1
 
 #import "KryAttributeWorker.h"
 #import <objc/message.h>
@@ -438,7 +423,7 @@
 }
 
 
-/*************************************************插入 片段*********************************************************/
+/*************************************************插入 删除 清空 片段*********************************************************/
 - (KryAttributeWorker * _Nonnull (^)(id _Nonnull, ...))insert {
     
     return ^ KryAttributeWorker *(id insert, ...) {
@@ -609,58 +594,6 @@ static inline  NSRange _rangeAll(NSAttributedString *attr) {
                     [_attstr replaceCharactersInRange:range withAttributedString:strORattstr];}
         return self;
         };
-}
-/********************************            color                          *********************************/
-+ (UIColor *)colorWithHexString:(NSString *)color alpha:(CGFloat)alpha
-{
-    //删除字符串中的空格
-    NSString *cString = [[color stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
-    // String should be 6 or 8 characters
-    if ([cString length] < 6)
-    {
-        return [UIColor clearColor];
-    }
-    // strip 0X if it appears
-    //如果是0x开头的，那么截取字符串，字符串从索引为2的位置开始，一直到末尾
-    if ([cString hasPrefix:@"0X"])
-    {
-        cString = [cString substringFromIndex:2];
-    }
-    //如果是#开头的，那么截取字符串，字符串从索引为1的位置开始，一直到末尾
-    if ([cString hasPrefix:@"#"])
-    {
-        cString = [cString substringFromIndex:1];
-    }
-    if ([cString length] != 6)
-    {
-        return [UIColor clearColor];
-    }
-    
-    // Separate into r, g, b substrings
-    NSRange range;
-    range.location = 0;
-    range.length = 2;
-    //r
-    NSString *rString = [cString substringWithRange:range];
-    //g
-    range.location = 2;
-    NSString *gString = [cString substringWithRange:range];
-    //b
-    range.location = 4;
-    NSString *bString = [cString substringWithRange:range];
-    
-    // Scan values
-    unsigned int r, g, b;
-    [[NSScanner scannerWithString:rString] scanHexInt:&r];
-    [[NSScanner scannerWithString:gString] scanHexInt:&g];
-    [[NSScanner scannerWithString:bString] scanHexInt:&b];
-    return [UIColor colorWithRed:((float)r / 255.0f) green:((float)g / 255.0f) blue:((float)b / 255.0f) alpha:alpha];
-}
-
-//默认alpha值为1
-+ (UIColor *)colorWithHexString:(NSString *)color
-{
-    return [self colorWithHexString:color alpha:1.0f];
 }
 
 @end
