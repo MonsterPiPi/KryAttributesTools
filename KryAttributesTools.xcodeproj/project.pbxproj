@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B207616B1FDF840100F206DA /* KryAttributesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B20761681FDF840100F206DA /* KryAttributesManager.m */; };
+		B207616C1FDF840100F206DA /* KryAttributeWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = B207616A1FDF840100F206DA /* KryAttributeWorker.m */; };
 		B22258A11FDEBDDD001E6698 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22258A01FDEBDDD001E6698 /* ShowViewController.m */; };
-		B22258A71FDECBAB001E6698 /* KryAttributesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B22258A41FDECBAA001E6698 /* KryAttributesManager.m */; };
-		B22258A81FDECBAB001E6698 /* KryAttributeWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = B22258A61FDECBAA001E6698 /* KryAttributeWorker.m */; };
 		B24456A61FBEC84E00630E9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B24456A51FBEC84E00630E9F /* AppDelegate.m */; };
 		B24456A91FBEC84F00630E9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B24456A81FBEC84F00630E9F /* ViewController.m */; };
 		B24456AC1FBEC84F00630E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24456AA1FBEC84F00630E9F /* Main.storyboard */; };
@@ -39,13 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B20761661FDF840100F206DA /* Include.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Include.h; sourceTree = "<group>"; };
+		B20761671FDF840100F206DA /* KryAttributesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KryAttributesManager.h; sourceTree = "<group>"; };
+		B20761681FDF840100F206DA /* KryAttributesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KryAttributesManager.m; sourceTree = "<group>"; };
+		B20761691FDF840100F206DA /* KryAttributeWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KryAttributeWorker.h; sourceTree = "<group>"; };
+		B207616A1FDF840100F206DA /* KryAttributeWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KryAttributeWorker.m; sourceTree = "<group>"; };
 		B222589F1FDEBDDD001E6698 /* ShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
 		B22258A01FDEBDDD001E6698 /* ShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
-		B22258A31FDECBAA001E6698 /* KryAttributesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KryAttributesManager.h; sourceTree = "<group>"; };
-		B22258A41FDECBAA001E6698 /* KryAttributesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KryAttributesManager.m; sourceTree = "<group>"; };
-		B22258A51FDECBAA001E6698 /* KryAttributeWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KryAttributeWorker.h; sourceTree = "<group>"; };
-		B22258A61FDECBAA001E6698 /* KryAttributeWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KryAttributeWorker.m; sourceTree = "<group>"; };
-		B22258A91FDECBF9001E6698 /* Include.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Include.h; sourceTree = "<group>"; };
 		B24456A11FBEC84E00630E9F /* KryAttributesTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KryAttributesTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24456A41FBEC84E00630E9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B24456A51FBEC84E00630E9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,17 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B22258A21FDECBAA001E6698 /* KryTools */ = {
+		B20761651FDF840100F206DA /* KryTools */ = {
 			isa = PBXGroup;
 			children = (
-				B22258A91FDECBF9001E6698 /* Include.h */,
-				B22258A31FDECBAA001E6698 /* KryAttributesManager.h */,
-				B22258A41FDECBAA001E6698 /* KryAttributesManager.m */,
-				B22258A51FDECBAA001E6698 /* KryAttributeWorker.h */,
-				B22258A61FDECBAA001E6698 /* KryAttributeWorker.m */,
+				B20761661FDF840100F206DA /* Include.h */,
+				B20761671FDF840100F206DA /* KryAttributesManager.h */,
+				B20761681FDF840100F206DA /* KryAttributesManager.m */,
+				B20761691FDF840100F206DA /* KryAttributeWorker.h */,
+				B207616A1FDF840100F206DA /* KryAttributeWorker.m */,
 			);
 			path = KryTools;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		B24456981FBEC84E00630E9F = {
 			isa = PBXGroup;
@@ -125,7 +125,7 @@
 		B24456A31FBEC84E00630E9F /* KryAttributesTools */ = {
 			isa = PBXGroup;
 			children = (
-				B22258A21FDECBAA001E6698 /* KryTools */,
+				B20761651FDF840100F206DA /* KryTools */,
 				B24456A41FBEC84E00630E9F /* AppDelegate.h */,
 				B24456A51FBEC84E00630E9F /* AppDelegate.m */,
 				B24456A71FBEC84E00630E9F /* ViewController.h */,
@@ -297,8 +297,8 @@
 				B24456A91FBEC84F00630E9F /* ViewController.m in Sources */,
 				B24456B41FBEC84F00630E9F /* main.m in Sources */,
 				B24456A61FBEC84E00630E9F /* AppDelegate.m in Sources */,
-				B22258A81FDECBAB001E6698 /* KryAttributeWorker.m in Sources */,
-				B22258A71FDECBAB001E6698 /* KryAttributesManager.m in Sources */,
+				B207616C1FDF840100F206DA /* KryAttributeWorker.m in Sources */,
+				B207616B1FDF840100F206DA /* KryAttributesManager.m in Sources */,
 				B22258A11FDEBDDD001E6698 /* ShowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
